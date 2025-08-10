@@ -1,0 +1,574 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  background-color: #1c1c22;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+.header{
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+
+.custom-shape-divider-bottom-1754536225 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1754536225 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 150px;
+}
+
+.custom-shape-divider-bottom-1754536225 .shape-fill {
+  fill: #007FFF;
+}
+
+.header .navbar{
+  width: 100%;
+  height: 80px;
+}
+
+.navbar .navbar-container{
+  width: 100%;
+  height: 100%;
+  padding: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar .navbar-container .logo {
+  width: 50px;
+  height: 50px;
+}
+
+.navbar .navbar-container .logo img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.navbar .navbar-container .nav-content{
+  width: 500px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar .navbar-container .nav-content .nav-option{
+  list-style: none;
+}
+
+.navbar .navbar-container .nav-content .nav-option a{
+  font-size: 15px;
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  font-family: "Righteous";
+}
+
+.header .hero-section{
+  width: 100%;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.header .hero-section h1{
+  font-size: 52px;
+  color: #007FFF;
+  font-weight: bold;
+  font-family: "Righteous";
+}
+
+.header .hero-section p{
+  font-size: 14px;
+  font-weight: bold;
+  color: #fff;
+  font-family: "Righteous";
+}
+
+.Service{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.Service h2{
+  font-size: 35px;
+  color: #007FFF;
+  font-weight: bold;
+  font-family: "Righteous";
+}
+
+.Service .service-section{
+  width: 80%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.Service .service-section .services{
+  width: 40%;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+  margin-top: 20px;
+  margin-left: 20px;
+  border-radius: 10px;
+  padding: 20px;
+  background-color: #007FFF;
+}
+
+.Service .service-section .services .service-img{
+  background-color: inherit;
+}
+
+.Service .service-section .services .service-content{
+  background-color: inherit;
+}
+
+.Service .service-section .services .service-content h2{
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Righteous";
+  background-color: inherit;
+  margin-bottom: 15px;
+}
+
+.Service .service-section .services .service-content p{
+  color: #fff;
+  font-size: 14px;
+  font-family: "Righteous";
+  background-color: inherit;
+}
+
+.Service .service-section .services .service-button{
+  display: flex;
+  justify-content: start;
+  background-color: #007FFF;
+  margin-top: 20px;
+}
+
+.Service .service-section .services .service-button button{
+  width: 100px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  border: 1px solid #000000;
+  border-radius: 999px;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.about{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about h1{
+  font-size: 30px;
+  font-weight: bold;
+  font-family: "Righteous";
+  color: #007FFF;
+}
+
+.about .about-section{
+  /* position: relative; */
+  width: 80%;
+  height: 600px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  /* overflow: hidden; */
+}
+/* 
+.about .about-section::before{
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: #007FFF;
+  filter: blur(8px);
+  z-index: 0;
+}
+
+.about .about-section > *{
+  position: relative;
+  z-index: 1;
+} */
+
+.about .about-section .about-left{
+  width: 48%;
+  height: 100%;
+  background-color: #007FFF;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  padding: 30px;
+}
+
+.about .about-section .about-left .about-content{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #007FFF;
+}
+
+.about .about-section .about-left .about-content .about-heading{
+  width: 100%;
+  height: 35%;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.about .about-section .about-left .about-content .about-heading h3{
+  font-size: 14px;
+  font-weight: bold;
+  color: #fff;
+  font-family: "Righteous";
+}
+
+.about .about-section .about-left .about-content .about-heading h2{
+  font-size: 32px;
+  font-weight: bold;
+  color: #fff;
+  font-family: "Righteous";
+  margin-top: 20px;
+}
+
+.about .about-section .about-left .about-content .about-description{
+  width: 100%;
+  height: 40%;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.about .about-section .about-left .about-content .about-description p{
+  font-size: 14px;
+  line-height: 25px;
+  color: #fff;
+  font-family: "Righteous";
+}
+
+.about .about-section .about-right{
+  width: 48%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+  background-color: #007FFF;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.about .about-section .about-right .about-image{
+  width: 95%;
+  height: 45%;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.about .about-section .about-right .about-image img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.about .about-section .about-right .about-detail{
+  width: 95%;
+  height: 45%;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.about .about-section .about-right .about-detail .about-detail-content{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.about .about-section .about-right .about-detail .about-detail-content .detail-content{
+  width: 50%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.about .about-section .about-right .about-detail .about-detail-content .detail-content h2{
+  font-size: 20px;
+  font-weight: bold;
+  color: #fff;
+  font-family: "Righteous";
+}
+
+.about .about-section .about-right .about-detail .about-detail-content .detail-content p{
+  font-size: 14px;
+  font-weight: bold;
+  color: #fff;
+  font-family: "Righteous";
+}
+
+.contact-us{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-us h2{
+  font-size: 38px;
+  font-weight: bold;
+  color: #007FFF;
+  font-family: "Righteous";
+  margin-bottom: 20px;
+}
+
+.contact-us .contact-us-container{
+  width: 30%;
+  height: 440px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #007FFF;
+  border-radius: 20px;
+  padding: 15px;
+}
+
+.contact-us .contact-us-container h2{
+  font-size: 30px;
+  font-weight: bold;
+  color: #007FFF;
+  font-family: "Righteous";
+  margin-top: 15px;
+}
+
+.contact-us .contact-us-container .form{
+  width: 95%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contact-us .contact-us-container .form input{
+  width: 100%;
+  height: 40px;
+  outline: none;
+  border: 1px solid #007FFF;
+  border-radius: 10px;
+  font-size: 14px;
+  font-family: "Righteous";
+  color: #fff;
+  cursor: pointer;
+  margin-top: 20px;
+  padding-left: 10px;
+}
+
+.contact-us .contact-us-container .form textarea{
+  width: 100%;
+  height: auto;
+  border: 1px solid #007FFF;
+  border-radius: 10px;
+  outline: none;
+  font-size: 14px;
+  font-family: monospace;
+  color: #fff;
+  margin-top: 20px;
+  padding: 10px;
+}
+
+.contact-us .contact-us-container .submit-button{
+  width: 95%;
+  height: auto;
+  margin-top: 20px;
+}
+
+.contact-us .contact-us-container .submit-button button{
+  width: 100px;
+  height: 40px;
+  background-color: #007FFF;
+  border: none;
+  border-radius: 999px;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: "Righteous";
+  color: #fff;
+  cursor: pointer;
+}
+
+.footer{
+  width: 100%;
+  height: 80vh;
+  background-color: #007FFF;
+}
+
+.footer .footer-container{
+  width: 100%;
+  height: 98%;
+  background-color: inherit;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+  padding-left: 100px;
+}
+
+.footer .footer-container .footer-content{
+  width: 15%;
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  background-color: inherit;
+}
+
+.footer .footer-container .footer-content .content{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  background-color: inherit;
+}
+
+.footer .footer-container .footer-content .content h2{
+  background-color: inherit;
+  color: #fff;
+  font-family: "Righteous";
+  font-weight: bold;
+  font-size: 30px;
+  margin-bottom: 40px;
+}
+
+.footer .footer-container .footer-content .content span{
+  background-color: inherit;
+  color: #fff;
+  font-family: "Righteous";
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.footer .footer-container .footer-content .content p{
+  background-color: inherit;
+  color: #fff;
+  font-family: "Righteous";
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.footer .footer-container .footer-content .partners{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  background-color: inherit;
+}
+
+.footer .footer-container .footer-content .partners p{
+  background-color: inherit;
+  color: #fff;
+  font-family: "Righteous";
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.footer .footer-container .footer-content .social-media{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  background-color: inherit;
+}
+
+.footer .footer-container .footer-content .social-media a{
+  background-color: inherit;
+  color: #fff;
+  font-family: "Righteous";
+  font-size: 14px;
+  text-decoration: none;
+  margin-bottom: 20px;
+}
+
+.footer .footer-container .footer-content .others{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  background-color: inherit;
+}
+
+.footer .footer-container .footer-content .others p{
+  background-color: inherit;
+  color: #fff;
+  font-family: "Righteous";
+  font-size: 14px;
+  text-decoration: none;
+  margin-bottom: 20px;
+}
+
+.footer .copyright{
+  width: 100%;
+  height: 2%;
+  background-color: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 16px;
+  font-family: "Righteous";
+  padding-bottom: 20px;
+}
